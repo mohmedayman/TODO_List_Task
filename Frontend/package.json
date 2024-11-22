@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "A simple frontend for To-Do list application",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mohamed Ayman",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^25.0.1"
+  }
+}
